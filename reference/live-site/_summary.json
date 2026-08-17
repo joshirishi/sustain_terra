@@ -1,0 +1,72 @@
+{
+  "home": {
+    "title": "Home",
+    "chars": 39915,
+    "text_chars": 24064,
+    "links": 2,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 1,
+    "modified": "2025-12-08T11:34:13"
+  },
+  "learning-and-development": {
+    "title": "Learning and Development",
+    "chars": 65788,
+    "text_chars": 33792,
+    "links": 0,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 1,
+    "modified": "2025-12-15T18:30:32"
+  },
+  "counsulting-services": {
+    "title": "Counsulting Services",
+    "chars": 37189,
+    "text_chars": 26199,
+    "links": 1,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 0,
+    "modified": "2025-10-01T18:34:51"
+  },
+  "about-us": {
+    "title": "About Us",
+    "chars": 42516,
+    "text_chars": 30814,
+    "links": 0,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 0,
+    "modified": "2025-12-08T11:24:31"
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "chars": 50437,
+    "text_chars": 38551,
+    "links": 0,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 0,
+    "modified": "2026-01-13T07:47:28"
+  },
+  "refund-policy": {
+    "title": "Refund Policy",
+    "chars": 14476,
+    "text_chars": 10415,
+    "links": 0,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 0,
+    "modified": "2025-12-24T07:50:23"
+  },
+  "cancellation-rescheduling-policy": {
+    "title": "Cancellation & Rescheduling Policy",
+    "chars": 12039,
+    "text_chars": 8504,
+    "links": 0,
+    "imgs": 0,
+    "buttons": 0,
+    "forms": 0,
+    "modified": "2025-12-24T08:08:16"
+  }
+}

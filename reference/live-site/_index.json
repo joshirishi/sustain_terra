@@ -1,0 +1,60 @@
+{
+  "home": {
+    "modules": 24,
+    "images": 9,
+    "links": 2,
+    "buttons": [
+      "Explore Our Services",
+      "Explore Our Services",
+      "Explore Our Services",
+      "Explore Our Services",
+      "Explore Our Services",
+      "Explore Our Services",
+      "Contact Us",
+      "Schedule a Consultation"
+    ]
+  },
+  "learning-and-development": {
+    "modules": 36,
+    "images": 1,
+    "links": 0,
+    "buttons": []
+  },
+  "counsulting-services": {
+    "modules": 25,
+    "images": 0,
+    "links": 0,
+    "buttons": []
+  },
+  "about-us": {
+    "modules": 31,
+    "images": 3,
+    "links": 4,
+    "buttons": [
+      "Learn About Our Services",
+      "Download Brochure",
+      "Schedule a Consultation"
+    ]
+  },
+  "privacy-policy": {
+    "modules": 27,
+    "images": 1,
+    "links": 0,
+    "buttons": [
+      "Read More",
+      "Learn More"
+    ]
+  },
+  "refund-policy": {
+    "modules": 3,
+    "images": 0,
+    "links": 0,
+    "buttons": []
+  },
+  "cancellation-rescheduling-policy": {
+    "modules": 3,
+    "images": 0,
+    "links": 0,
+    "buttons": []
+  }
+}

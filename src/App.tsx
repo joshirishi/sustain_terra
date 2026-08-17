@@ -8,6 +8,7 @@ import { LearningDevelopment } from '@/pages/LearningDevelopment';
 import { Consulting } from '@/pages/Consulting';
 import { About } from '@/pages/About';
 import { Contact } from '@/pages/Contact';
+import { Policies } from '@/pages/Policies';
 
 /** Route changes start at the top; in-page hashes still scroll to their anchor. */
 function ScrollBehaviour() {
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/consulting" element={<Consulting />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/policies/:slug" element={<Policies />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </main>

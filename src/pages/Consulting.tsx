@@ -49,8 +49,18 @@ export function Consulting() {
 
   return (
     <>
-      <section className="u-grid-lines bg-ink text-paper">
-        <div className="u-wrap grid gap-12 py-20 md:py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+      <section
+        className="u-grid-lines relative overflow-hidden text-paper"
+        style={{
+          backgroundImage: 'url(/images/consulting.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/80 to-ink/70" aria-hidden="true" />
+        <div className="u-wrap relative grid gap-12 py-20 md:py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
           <div>
             <Eyebrow tone="light">Consulting</Eyebrow>
             <h1 className="u-display mt-6 text-[2.5rem] leading-[1.04] sm:text-[3.2rem]">

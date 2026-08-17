@@ -4,7 +4,7 @@
       "id": "6ef7e0d3-3331-4255-a48f-c1f9bc536feb",
       "headline": "Consumers are driving change",
       "figure": "81%",
-      "body": "of global consumers expect companies to act on sustainability — and 73% are ready to change their consumption habits.",
+      "body": "of global consumers expect companies to act on sustainability \u2014 and 73% are ready to change their consumption habits.",
       "source": "Nielsen",
       "sort_order": 1,
       "created_at": "2026-08-17T06:09:49.261462+00:00"
@@ -13,7 +13,7 @@
       "id": "ea4ff6b4-ddc7-4129-8917-a96ee463b434",
       "headline": "ESG is reshaping global finance",
       "figure": "$50T",
-      "body": "in projected ESG assets by 2025 — over a third of global assets under management.",
+      "body": "in projected ESG assets by 2025 \u2014 over a third of global assets under management.",
       "source": "Bloomberg Intelligence",
       "sort_order": 2,
       "created_at": "2026-08-17T06:09:49.261462+00:00"
@@ -40,7 +40,7 @@
       "id": "d2d5cde4-7690-4ca5-b819-a007c52d96db",
       "headline": "A growing green skills gap",
       "figure": "29%",
-      "body": "of professionals feel confident navigating ESG compliance — a major shortage of practical capability.",
+      "body": "of professionals feel confident navigating ESG compliance \u2014 a major shortage of practical capability.",
       "source": "LinkedIn Global Green Skills Report",
       "sort_order": 5,
       "created_at": "2026-08-17T06:09:49.261462+00:00"
@@ -60,7 +60,7 @@
       "id": "32b55a9e-e4d6-4cd4-9630-d1850c380150",
       "name": "Science-Led, Human-Centred",
       "tagline": "Grounded in evidence, inspired by empathy.",
-      "body": "Our work is guided by scientific rigour — data, research, and evidence — and always translated into human terms. Sustainability is not just a technical discipline; it needs empathy, storytelling, and cultural understanding to inspire change.",
+      "body": "Our work is guided by scientific rigour \u2014 data, research, and evidence \u2014 and always translated into human terms. Sustainability is not just a technical discipline; it needs empathy, storytelling, and cultural understanding to inspire change.",
       "icon": "microscope",
       "sort_order": 1
     },
@@ -68,7 +68,7 @@
       "id": "facb9904-bffe-4d9d-9f45-b7bd9131e32d",
       "name": "Integrity & Transparency",
       "tagline": "Doing right, even when unseen.",
-      "body": "We operate with honesty, fairness, and openness in every relationship and engagement. From strategy design to reporting, we communicate truthfully — including when the answer is inconvenient.",
+      "body": "We operate with honesty, fairness, and openness in every relationship and engagement. From strategy design to reporting, we communicate truthfully \u2014 including when the answer is inconvenient.",
       "icon": "shield",
       "sort_order": 2
     },
@@ -76,7 +76,7 @@
       "id": "14417b41-f0c9-47b3-9c50-ec7a11225e4f",
       "name": "Impact Driven",
       "tagline": "Change that counts.",
-      "body": "We partner with clients and communities by understanding their specific challenges, and deliver measurable environmental and social outcomes — in the interests of our clients, society, and the planet.",
+      "body": "We partner with clients and communities by understanding their specific challenges, and deliver measurable environmental and social outcomes \u2014 in the interests of our clients, society, and the planet.",
       "icon": "target",
       "sort_order": 3
     },
@@ -136,7 +136,7 @@
       "summary": "Science-based targets and an actionable roadmap to cut emissions across your operations and value chain.",
       "bullets": [
         "Baseline emissions assessment and hotspot analysis",
-        "Target setting aligned with 1.5°C pathways",
+        "Target setting aligned with 1.5\u00b0C pathways",
         "Abatement measure identification and prioritisation",
         "Implementation roadmap with clear milestones"
       ],
@@ -180,7 +180,7 @@
       "id": "5e1c304b-ace0-49f5-9610-10542ac6c8fb",
       "slug": "ghg-accounting",
       "title": "GHG Accounting",
-      "summary": "Build an emissions inventory that survives assurance — boundaries, consolidation, and all three scopes.",
+      "summary": "Build an emissions inventory that survives assurance \u2014 boundaries, consolidation, and all three scopes.",
       "modules": [
         "What is GHG accounting",
         "Reporting boundaries and consolidation approaches",
@@ -197,7 +197,7 @@
       "id": "cfb74b68-ebca-44d6-9a18-60192926196e",
       "slug": "materiality-assessment",
       "title": "Materiality Assessment",
-      "summary": "Decide what actually matters — and be able to show your work when an auditor asks.",
+      "summary": "Decide what actually matters \u2014 and be able to show your work when an auditor asks.",
       "modules": [
         "What is materiality and double materiality",
         "Stakeholder mapping",
@@ -213,7 +213,7 @@
     {
       "id": "27a012c8-a07a-4b30-9e09-0f4aa7c0c2a4",
       "slug": "sustainability-reporting",
-      "title": "Sustainability Reporting — BRSR, GRI, CDP, TCFD",
+      "title": "Sustainability Reporting \u2014 BRSR, GRI, CDP, TCFD",
       "summary": "Work through the frameworks that regulators and investors actually ask for, and the data operation behind them.",
       "modules": [
         "Overview of sustainability reporting frameworks",
@@ -231,7 +231,7 @@
       "id": "7d4ad888-9d04-49aa-bc54-eeef45315a6e",
       "slug": "climate-risk",
       "title": "Climate Risk",
-      "summary": "From climate models to usable scenario data — the technical grounding behind credible risk disclosure.",
+      "summary": "From climate models to usable scenario data \u2014 the technical grounding behind credible risk disclosure.",
       "modules": [
         "Introduction to basic concepts of climate change",
         "Introduction to climate models",
@@ -248,7 +248,7 @@
       "id": "90de582c-1c39-4f72-9799-9bb9cadd4da1",
       "slug": "decarbonization-roadmap",
       "title": "Decarbonization Roadmap",
-      "summary": "Turn a baseline into a sequenced plan — hotspots, levers, and the constraints that decide what is real.",
+      "summary": "Turn a baseline into a sequenced plan \u2014 hotspots, levers, and the constraints that decide what is real.",
       "modules": [
         "Definition and principles",
         "Baselines and hotspot identification",
@@ -267,7 +267,7 @@
       "id": "f1b8492a-d65d-433e-baa7-e5dd3f048190",
       "name": "Vinit Gosalia",
       "role": "CEO & Founder",
-      "bio": "IIT Kanpur–trained in climate finance, Vinit aligns strategy, disclosures, and stakeholder programmes to deliver credible results and measurable impact.",
+      "bio": "IIT Kanpur\u2013trained in climate finance, Vinit aligns strategy, disclosures, and stakeholder programmes to deliver credible results and measurable impact.",
       "credentials": [
         "GRI certified",
         "BRSR certified",
@@ -285,7 +285,7 @@
       "id": "bfb9abad-bf1e-4600-a6af-897c58c9c807",
       "name": "Trupti Sawant",
       "role": "Chief Operating Officer",
-      "bio": "IIT Kanpur–trained in climate finance, Trupti scaled operations at Nokia and HERE Technologies, pioneering India's digital mapping. She turns complex sustainability challenges into robust systems and business-ready execution.",
+      "bio": "IIT Kanpur\u2013trained in climate finance, Trupti scaled operations at Nokia and HERE Technologies, pioneering India's digital mapping. She turns complex sustainability challenges into robust systems and business-ready execution.",
       "credentials": [
         "PMP",
         "PRINCE2",
@@ -302,7 +302,7 @@
       "id": "70095850-c9fd-4a13-b198-03fe13778aef",
       "name": "Dr. Sameeksha Patil",
       "role": "Chief Sustainability Officer",
-      "bio": "PhD in life-cycle assessment and IIT Kanpur–trained in climate finance. Sameeksha aligns SBTi, CBAM, and TCFD/BRSR/CSRD/GRI to deliver credible decarbonization pathways.",
+      "bio": "PhD in life-cycle assessment and IIT Kanpur\u2013trained in climate finance. Sameeksha aligns SBTi, CBAM, and TCFD/BRSR/CSRD/GRI to deliver credible decarbonization pathways.",
       "credentials": [
         "ISO certified",
         "Sustainability assurance certified"
@@ -319,7 +319,7 @@
       "id": "d56a916f-7e5f-4c7b-bc5b-b8ae765efd1d",
       "name": "Gaurav Pradhan",
       "title": "ESG programme participant",
-      "quote": "Vinit and team's ESG training was one of my best decisions — well-structured from beginner to advanced and taught by accessible, experienced professionals. Ideal for personal or organizational upskilling.",
+      "quote": "Vinit and team's ESG training was one of my best decisions \u2014 well-structured from beginner to advanced and taught by accessible, experienced professionals. Ideal for personal or organizational upskilling.",
       "sort_order": 1,
       "is_published": true
     },
@@ -327,7 +327,7 @@
       "id": "f18eb2a9-1d13-4916-9d62-96c5213ca3f2",
       "name": "Rajan Thakur",
       "title": "Program Associate, Air Pollution Action Group (A-PAG), Prayagraj",
-      "quote": "Prof. Vinit Gosalia's session was insightful and practical — he simplified complex ESG frameworks, tied them to real-world use, and made learning actionable, reinforcing my aim to integrate CSR, ESG, and sustainability for greater impact.",
+      "quote": "Prof. Vinit Gosalia's session was insightful and practical \u2014 he simplified complex ESG frameworks, tied them to real-world use, and made learning actionable, reinforcing my aim to integrate CSR, ESG, and sustainability for greater impact.",
       "sort_order": 2,
       "is_published": true
     },
@@ -344,7 +344,7 @@
     {
       "id": "0b6fe402-d162-4d4e-a46a-0867d39ccc0c",
       "title": "Industry expertise",
-      "body": "Led by IITians and PhDs, with decades of hands-on, cross-sector experience — solutions that work in operations, not just on paper.",
+      "body": "Led by IITians and PhDs, with decades of hands-on, cross-sector experience \u2014 solutions that work in operations, not just on paper.",
       "icon": "award",
       "sort_order": 1
     },
@@ -369,5 +369,7 @@
       "icon": "globe",
       "sort_order": 4
     }
-  ]
+  ],
+  "policies": [],
+  "policy_faqs": []
 }

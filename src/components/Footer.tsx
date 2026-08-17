@@ -20,6 +20,14 @@ const columns = [
       { to: '/contact', label: 'Contact' },
     ],
   },
+  {
+    title: 'Legal',
+    links: [
+      { to: '/policies/privacy-policy', label: 'Privacy policy' },
+      { to: '/policies/refund-policy', label: 'Refund policy' },
+      { to: '/policies/cancellation-rescheduling-policy', label: 'Cancellation & rescheduling' },
+    ],
+  },
 ];
 
 export function Footer() {

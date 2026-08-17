@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ArrowRight, BadgeCheck, BookOpen, ChevronDown, Quote, Users } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { RegistrationDialog } from '@/components/RegistrationDialog';
+import { MultiCourseEnrollmentForm } from '@/components/MultiCourseEnrollmentForm';
 import { BrochureForm } from '@/components/BrochureForm';
 import { Button, ButtonLink, Eyebrow, Section, SectionHead } from '@/components/ui';
 import { ClosingCta } from '@/pages/Home';
@@ -39,11 +40,22 @@ export function LearningDevelopment() {
   usePageMeta('Learning & Development', 'Six practitioner-led sustainability training programmes: essentials, GHG accounting, materiality, BRSR/GRI/CDP/TCFD reporting, climate risk, and decarbonization roadmaps.');
   const [active, setActive] = useState<Program | null>(null);
   const [expanded, setExpanded] = useState<string | null>(null);
+  const [showEnrollment, setShowEnrollment] = useState(false);
 
   return (
     <>
-      <section className="u-grid-lines bg-ink text-paper">
-        <div className="u-wrap grid gap-12 py-20 md:py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+      <section
+        className="u-grid-lines relative overflow-hidden text-paper"
+        style={{
+          backgroundImage: 'url(/images/image-9.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/80 to-ink/70" aria-hidden="true" />
+        <div className="u-wrap relative grid gap-12 py-20 md:py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
           <div>
             <Eyebrow tone="light">Learning &amp; Development</Eyebrow>
             <h1 className="u-display mt-6 text-[2.5rem] leading-[1.04] sm:text-[3.2rem]">
@@ -56,8 +68,11 @@ export function LearningDevelopment() {
               your people from that number to competent, evidence-backed practice.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <ButtonLink href="#programmes" variant="primary" size="lg">
-                See the programmes <ArrowRight size={18} />
+              <Button onClick={() => setShowEnrollment(true)} variant="primary" size="lg">
+                Browse and enroll <ArrowRight size={18} />
+              </Button>
+              <ButtonLink href="#programmes" variant="dark" size="lg">
+                See the programmes
               </ButtonLink>
             </div>
           </div>
@@ -214,6 +229,7 @@ export function LearningDevelopment() {
       />
 
       {active && <RegistrationDialog program={active} onClose={() => setActive(null)} />}
+      {showEnrollment && <MultiCourseEnrollmentForm onClose={() => setShowEnrollment(false)} />}
     </>
   );
 }

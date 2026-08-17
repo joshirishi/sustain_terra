@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Linkedin } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { ButtonLink, Eyebrow, Section, SectionHead } from '@/components/ui';
 import { ClosingCta } from '@/pages/Home';
@@ -129,14 +129,35 @@ export function About() {
           {team_members.map((m, i) => (
             <Reveal key={m.id} delay={i * 0.09}>
               <article className="flex h-full flex-col rounded-card border border-line bg-sand/25 p-8">
-                <div className="flex items-center gap-4">
-                  <span className="u-display flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-forest text-lg text-paper">
-                    {initials(m.name)}
-                  </span>
-                  <div>
-                    <h3 className="u-display text-[1.3rem] leading-tight text-ink">{m.name}</h3>
-                    <p className="text-sm text-moss">{m.role}</p>
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex items-center gap-4">
+                    {m.photo_url ? (
+                      <img
+                        src={m.photo_url}
+                        alt={m.name}
+                        className="h-14 w-14 shrink-0 rounded-full object-cover bg-forest"
+                      />
+                    ) : (
+                      <span className="u-display flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-forest text-lg text-paper">
+                        {initials(m.name)}
+                      </span>
+                    )}
+                    <div>
+                      <h3 className="u-display text-[1.3rem] leading-tight text-ink">{m.name}</h3>
+                      <p className="text-sm text-moss">{m.role}</p>
+                    </div>
                   </div>
+                  {m.linkedin_url && (
+                    <a
+                      href={m.linkedin_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${m.name} on LinkedIn`}
+                      className="shrink-0 text-moss hover:text-forest transition-colors"
+                    >
+                      <Linkedin size={20} />
+                    </a>
+                  )}
                 </div>
 
                 <p className="mt-6 flex-1 text-[0.95rem] leading-relaxed text-slate">{m.bio}</p>

@@ -12,8 +12,10 @@ export function BrochureForm({ brochure = 'overview', tone = 'dark' }: { brochur
     e.preventDefault();
     setStatus('sending');
     setError(null);
-    const email = String(new FormData(e.currentTarget).get('email') || '').trim();
-    const res = await submitBrochureRequest(email, brochure);
+    const data = new FormData(e.currentTarget);
+    const email = String(data.get('email') || '').trim();
+    const name = String(data.get('name') || 'there').trim();
+    const res = await submitBrochureRequest(email, name, brochure);
     if (res.ok) setStatus('done');
     else {
       setStatus('idle');
@@ -32,6 +34,13 @@ export function BrochureForm({ brochure = 'overview', tone = 'dark' }: { brochur
   return (
     <form onSubmit={onSubmit} className="w-full max-w-md">
       <div className="flex flex-col gap-2 sm:flex-row">
+        <input
+          name="name"
+          type="text"
+          placeholder="Your name"
+          aria-label="Your name"
+          className={`${inputClass} ${tone === 'light' ? 'border-lichen/35 bg-white/10 text-paper placeholder:text-sand/55 focus:border-lichen focus:ring-lichen/25' : ''}`}
+        />
         <input
           name="email"
           type="email"

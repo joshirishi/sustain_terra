@@ -17,6 +17,8 @@ const TABLES = [
   'programs',
   'team_members',
   'testimonials',
+  'policies',
+  'policy_faqs',
   'differentiators',
 ] as const;
 

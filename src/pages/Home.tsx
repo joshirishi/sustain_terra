@@ -20,12 +20,17 @@ export function Home() {
   return (
     <>
       {/* ---------- Hero ---------- */}
-      <section className="u-grid-lines relative overflow-hidden bg-ink text-paper">
-        <div
-          className="pointer-events-none absolute -right-40 -top-40 h-[34rem] w-[34rem] rounded-full opacity-40 blur-3xl"
-          style={{ background: 'radial-gradient(circle, rgba(61,139,99,0.55), transparent 65%)' }}
-          aria-hidden="true"
-        />
+      <section
+        className="u-grid-lines relative overflow-hidden text-paper"
+        style={{
+          backgroundImage: 'url(/images/image-1.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/80 to-ink/70" aria-hidden="true" />
         <div className="u-wrap relative grid gap-14 py-20 md:py-28 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-20">
           <div>
             <Eyebrow tone="light">Sustainability consulting &amp; training</Eyebrow>

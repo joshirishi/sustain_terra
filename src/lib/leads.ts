@@ -1,4 +1,5 @@
 import { supabase } from '@/lib/supabase';
+import { sendContactConfirmation } from '@/lib/email-service';
 
 export type SubmitResult = { ok: true } | { ok: false; error: string };
 
@@ -23,12 +24,31 @@ export type ConsultationInput = {
   message?: string;
 };
 
-export const submitConsultation = (input: ConsultationInput) =>
-  insert('consultation_requests', {
+export async function submitConsultation(input: ConsultationInput): Promise<SubmitResult> {
+  const res = await insert('consultation_requests', {
     ...input,
     interest: input.interest || 'general',
     source_page: typeof window === 'undefined' ? null : window.location.pathname,
   });
+
+  if (res.ok) {
+    // Send confirmation email (fire-and-forget)
+    const interestLabel = {
+      consulting: 'consulting engagement',
+      training: 'training for your team',
+      reporting: 'ESG reporting / disclosure',
+      general: 'your inquiry',
+    }[input.interest || 'general'] || 'your inquiry';
+
+    sendContactConfirmation({
+      name: input.name,
+      email: input.email,
+      subject: interestLabel,
+    }).catch(err => console.error('Email send error:', err));
+  }
+
+  return res;
+}
 
 export type RegistrationInput = {
   program_id?: string;
@@ -44,7 +64,40 @@ export type RegistrationInput = {
 export const submitRegistration = (input: RegistrationInput) =>
   insert('program_registrations', { ...input, seats: input.seats ?? 1 });
 
-export const submitBrochureRequest = (email: string, brochure = 'overview', organisation?: string) =>
-  insert('brochure_downloads', { email, brochure, organisation });
+const BROCHURE_URLS: Record<string, { title: string; url: string }> = {
+  'learning-and-development': {
+    title: 'Learning & Development Programme Brochure',
+    url: 'https://sustainterra.com/brochures/learning-and-development.pdf',
+  },
+  'consulting-services': {
+    title: 'Consulting Services Brochure',
+    url: 'https://sustainterra.com/brochures/consulting-services.pdf',
+  },
+  overview: {
+    title: 'Company Overview',
+    url: 'https://sustainterra.com/brochures/overview.pdf',
+  },
+};
+
+export async function submitBrochureRequest(
+  email: string,
+  name?: string,
+  brochure = 'overview',
+  organisation?: string
+): Promise<SubmitResult> {
+  const res = await insert('brochure_downloads', { email, brochure, organisation });
+
+  if (res.ok) {
+    // Send brochure delivery email (fire-and-forget)
+    const brochureInfo = BROCHURE_URLS[brochure] || BROCHURE_URLS.overview;
+    sendContactConfirmation({
+      name: name || 'there',
+      email,
+      subject: brochureInfo.title,
+    }).catch(err => console.error('Email send error:', err));
+  }
+
+  return res;
+}
 
 export const CALENDLY_URL = 'https://calendly.com/vinit-sustainterra/consultation';

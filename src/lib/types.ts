@@ -46,6 +46,8 @@ export type TeamMember = {
   bio: string;
   credentials: string[];
   prior_orgs: string[];
+  photo_url?: string | null;
+  linkedin_url?: string | null;
   sort_order: number;
 };
 
@@ -65,6 +67,23 @@ export type Differentiator = {
   sort_order: number;
 };
 
+export type Policy = {
+  id: string;
+  slug: string;
+  title: string;
+  body_md: string;
+  effective_date: string | null;
+  scope: string | null;
+};
+
+export type PolicyFaq = {
+  id: string;
+  policy_slug: string;
+  question: string;
+  answer: string;
+  sort_order: number;
+};
+
 export type Content = {
   stats: Stat[];
   core_values: CoreValue[];
@@ -73,4 +92,6 @@ export type Content = {
   team_members: TeamMember[];
   testimonials: Testimonial[];
   differentiators: Differentiator[];
+  policies: Policy[];
+  policy_faqs: PolicyFaq[];
 };

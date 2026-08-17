@@ -1,0 +1,373 @@
+{
+  "stats": [
+    {
+      "id": "6ef7e0d3-3331-4255-a48f-c1f9bc536feb",
+      "headline": "Consumers are driving change",
+      "figure": "81%",
+      "body": "of global consumers expect companies to act on sustainability — and 73% are ready to change their consumption habits.",
+      "source": "Nielsen",
+      "sort_order": 1,
+      "created_at": "2026-08-17T06:09:49.261462+00:00"
+    },
+    {
+      "id": "ea4ff6b4-ddc7-4129-8917-a96ee463b434",
+      "headline": "ESG is reshaping global finance",
+      "figure": "$50T",
+      "body": "in projected ESG assets by 2025 — over a third of global assets under management.",
+      "source": "Bloomberg Intelligence",
+      "sort_order": 2,
+      "created_at": "2026-08-17T06:09:49.261462+00:00"
+    },
+    {
+      "id": "f9a61076-52c3-4f0a-a006-7d0b271ca3c2",
+      "headline": "The economic cost of inaction",
+      "figure": "$2T",
+      "body": "lost to climate-linked extreme weather events globally over the past decade.",
+      "source": "Axios",
+      "sort_order": 3,
+      "created_at": "2026-08-17T06:09:49.261462+00:00"
+    },
+    {
+      "id": "4fd54948-8bdd-4738-bb7f-1d964d4e62b0",
+      "headline": "ESG regulation is surging",
+      "figure": "155%",
+      "body": "growth in ESG-related regulations over the last ten years, driving new expectations for corporate accountability.",
+      "source": "EY Global",
+      "sort_order": 4,
+      "created_at": "2026-08-17T06:09:49.261462+00:00"
+    },
+    {
+      "id": "d2d5cde4-7690-4ca5-b819-a007c52d96db",
+      "headline": "A growing green skills gap",
+      "figure": "29%",
+      "body": "of professionals feel confident navigating ESG compliance — a major shortage of practical capability.",
+      "source": "LinkedIn Global Green Skills Report",
+      "sort_order": 5,
+      "created_at": "2026-08-17T06:09:49.261462+00:00"
+    },
+    {
+      "id": "dffd32e5-95a7-45b6-b361-f43593e5c38f",
+      "headline": "ESG drives long-term value",
+      "figure": "Resilience",
+      "body": "Companies strong on ESG performance see greater stakeholder trust, resilience, and long-term business success.",
+      "source": "McKinsey & Company",
+      "sort_order": 6,
+      "created_at": "2026-08-17T06:09:49.261462+00:00"
+    }
+  ],
+  "core_values": [
+    {
+      "id": "32b55a9e-e4d6-4cd4-9630-d1850c380150",
+      "name": "Science-Led, Human-Centred",
+      "tagline": "Grounded in evidence, inspired by empathy.",
+      "body": "Our work is guided by scientific rigour — data, research, and evidence — and always translated into human terms. Sustainability is not just a technical discipline; it needs empathy, storytelling, and cultural understanding to inspire change.",
+      "icon": "microscope",
+      "sort_order": 1
+    },
+    {
+      "id": "facb9904-bffe-4d9d-9f45-b7bd9131e32d",
+      "name": "Integrity & Transparency",
+      "tagline": "Doing right, even when unseen.",
+      "body": "We operate with honesty, fairness, and openness in every relationship and engagement. From strategy design to reporting, we communicate truthfully — including when the answer is inconvenient.",
+      "icon": "shield",
+      "sort_order": 2
+    },
+    {
+      "id": "14417b41-f0c9-47b3-9c50-ec7a11225e4f",
+      "name": "Impact Driven",
+      "tagline": "Change that counts.",
+      "body": "We partner with clients and communities by understanding their specific challenges, and deliver measurable environmental and social outcomes — in the interests of our clients, society, and the planet.",
+      "icon": "target",
+      "sort_order": 3
+    },
+    {
+      "id": "0be5a0d0-dbaa-4f79-b03d-f6deb839f63b",
+      "name": "Kaizen",
+      "tagline": "Because good is not good enough when better is possible.",
+      "body": "Lasting change comes from small, steady steps done well. We refine our approaches, invite feedback, and hold the highest standards of quality, professionalism, and ethics in everything we do.",
+      "icon": "trending-up",
+      "sort_order": 4
+    }
+  ],
+  "services": [
+    {
+      "id": "679b03bd-a421-4895-a5f3-c3fc9dd53b6a",
+      "slug": "carbon-accounting",
+      "title": "Carbon Accounting & Target Setting",
+      "summary": "Build a defensible emissions baseline and set targets that hold up to scrutiny from auditors, investors, and regulators.",
+      "bullets": [
+        "GHG Protocol-aligned carbon inventories",
+        "Supply chain and Scope 3 emissions mapping",
+        "Emissions reduction target setting"
+      ],
+      "icon": "gauge",
+      "sort_order": 1
+    },
+    {
+      "id": "de0f54f4-d03c-4d7a-9d97-80017b597c45",
+      "slug": "climate-risk",
+      "title": "Climate Risk Consulting",
+      "summary": "Strategic assessment of physical and transition risk, so you can build resilience and spot the opportunities in a changing climate.",
+      "bullets": [
+        "TCFD-aligned risk assessments and advisory",
+        "Scenario analysis and stress testing",
+        "Climate adaptation strategy development"
+      ],
+      "icon": "cloud-lightning",
+      "sort_order": 2
+    },
+    {
+      "id": "ceb9baec-5a3e-4041-bac5-7c8b4f52644b",
+      "slug": "esg-reporting",
+      "title": "ESG Reporting & Compliance",
+      "summary": "Navigate a crowded regulatory landscape with disclosure that satisfies the framework and still reads as a coherent story.",
+      "bullets": [
+        "BRSR, GRI, CDP, TCFD/IFRS S2 and SASB reporting",
+        "EU Taxonomy alignment",
+        "Investor-grade ESG disclosures"
+      ],
+      "icon": "file-check",
+      "sort_order": 3
+    },
+    {
+      "id": "881b105c-2875-4519-be8f-f9edfb142fcb",
+      "slug": "decarbonization",
+      "title": "Decarbonization Strategy",
+      "summary": "Science-based targets and an actionable roadmap to cut emissions across your operations and value chain.",
+      "bullets": [
+        "Baseline emissions assessment and hotspot analysis",
+        "Target setting aligned with 1.5°C pathways",
+        "Abatement measure identification and prioritisation",
+        "Implementation roadmap with clear milestones"
+      ],
+      "icon": "route",
+      "sort_order": 4
+    },
+    {
+      "id": "054c615f-491e-4255-82d3-aedb9b5b3777",
+      "slug": "regulatory-compliance",
+      "title": "Regulatory Compliance",
+      "summary": "Stay ahead of evolving sustainability regulation with proactive compliance strategies and reporting systems.",
+      "bullets": [
+        "Regulatory gap analysis and compliance assessment",
+        "Data collection and management systems",
+        "Reporting template development and assurance",
+        "Ongoing compliance monitoring and updates"
+      ],
+      "icon": "scale",
+      "sort_order": 5
+    }
+  ],
+  "programs": [
+    {
+      "id": "9cb430be-2a62-435c-b0b4-4e6eddc8c2df",
+      "slug": "essentials-of-sustainability",
+      "title": "Essentials of Sustainability",
+      "summary": "The shared vocabulary your whole organisation needs before any ESG programme can move.",
+      "modules": [
+        "Introduction to sustainability",
+        "Pillars of sustainability",
+        "Benefits and challenges",
+        "The process of sustainability"
+      ],
+      "audience": "Sustainability and EHS professionals, board members, C-suite executives, and beginners",
+      "level": "Foundation",
+      "duration": "1 day",
+      "sort_order": 1,
+      "is_active": true
+    },
+    {
+      "id": "5e1c304b-ace0-49f5-9610-10542ac6c8fb",
+      "slug": "ghg-accounting",
+      "title": "GHG Accounting",
+      "summary": "Build an emissions inventory that survives assurance — boundaries, consolidation, and all three scopes.",
+      "modules": [
+        "What is GHG accounting",
+        "Reporting boundaries and consolidation approaches",
+        "Calculating Scope 1, 2 and 3",
+        "Best practices"
+      ],
+      "audience": "Sustainability and EHS professionals, board members, C-suite executives, and beginners",
+      "level": "Core",
+      "duration": "2 days",
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "cfb74b68-ebca-44d6-9a18-60192926196e",
+      "slug": "materiality-assessment",
+      "title": "Materiality Assessment",
+      "summary": "Decide what actually matters — and be able to show your work when an auditor asks.",
+      "modules": [
+        "What is materiality and double materiality",
+        "Stakeholder mapping",
+        "Gap analysis and steps",
+        "Scoring a materiality assessment"
+      ],
+      "audience": "Sustainability and EHS professionals, board members, C-suite executives, and beginners",
+      "level": "Core",
+      "duration": "1 day",
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "27a012c8-a07a-4b30-9e09-0f4aa7c0c2a4",
+      "slug": "sustainability-reporting",
+      "title": "Sustainability Reporting — BRSR, GRI, CDP, TCFD",
+      "summary": "Work through the frameworks that regulators and investors actually ask for, and the data operation behind them.",
+      "modules": [
+        "Overview of sustainability reporting frameworks",
+        "The process of reporting",
+        "Data collation",
+        "Best practices"
+      ],
+      "audience": "Sustainability and EHS professionals, board members, C-suite executives, and beginners",
+      "level": "Core",
+      "duration": "2 days",
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "7d4ad888-9d04-49aa-bc54-eeef45315a6e",
+      "slug": "climate-risk",
+      "title": "Climate Risk",
+      "summary": "From climate models to usable scenario data — the technical grounding behind credible risk disclosure.",
+      "modules": [
+        "Introduction to basic concepts of climate change",
+        "Introduction to climate models",
+        "What are climate scenarios",
+        "Downloading and using climate data for assessment"
+      ],
+      "audience": "Sustainability and EHS professionals, board members, and C-suite executives",
+      "level": "Advanced",
+      "duration": "2 days",
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "90de582c-1c39-4f72-9799-9bb9cadd4da1",
+      "slug": "decarbonization-roadmap",
+      "title": "Decarbonization Roadmap",
+      "summary": "Turn a baseline into a sequenced plan — hotspots, levers, and the constraints that decide what is real.",
+      "modules": [
+        "Definition and principles",
+        "Baselines and hotspot identification",
+        "Levers of decarbonization",
+        "Challenges and best practices"
+      ],
+      "audience": "Sustainability and EHS professionals, board members, C-suite executives, and beginners",
+      "level": "Advanced",
+      "duration": "2 days",
+      "sort_order": 6,
+      "is_active": true
+    }
+  ],
+  "team_members": [
+    {
+      "id": "f1b8492a-d65d-433e-baa7-e5dd3f048190",
+      "name": "Vinit Gosalia",
+      "role": "CEO & Founder",
+      "bio": "IIT Kanpur–trained in climate finance, Vinit aligns strategy, disclosures, and stakeholder programmes to deliver credible results and measurable impact.",
+      "credentials": [
+        "GRI certified",
+        "BRSR certified",
+        "CSR certified"
+      ],
+      "prior_orgs": [
+        "J.P. Morgan",
+        "Teach For India",
+        "Learning Links Foundation",
+        "Indeed"
+      ],
+      "sort_order": 1
+    },
+    {
+      "id": "bfb9abad-bf1e-4600-a6af-897c58c9c807",
+      "name": "Trupti Sawant",
+      "role": "Chief Operating Officer",
+      "bio": "IIT Kanpur–trained in climate finance, Trupti scaled operations at Nokia and HERE Technologies, pioneering India's digital mapping. She turns complex sustainability challenges into robust systems and business-ready execution.",
+      "credentials": [
+        "PMP",
+        "PRINCE2",
+        "Agile",
+        "Six Sigma"
+      ],
+      "prior_orgs": [
+        "Nokia",
+        "HERE Technologies"
+      ],
+      "sort_order": 2
+    },
+    {
+      "id": "70095850-c9fd-4a13-b198-03fe13778aef",
+      "name": "Dr. Sameeksha Patil",
+      "role": "Chief Sustainability Officer",
+      "bio": "PhD in life-cycle assessment and IIT Kanpur–trained in climate finance. Sameeksha aligns SBTi, CBAM, and TCFD/BRSR/CSRD/GRI to deliver credible decarbonization pathways.",
+      "credentials": [
+        "ISO certified",
+        "Sustainability assurance certified"
+      ],
+      "prior_orgs": [
+        "EKI",
+        "General Carbon"
+      ],
+      "sort_order": 3
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "d56a916f-7e5f-4c7b-bc5b-b8ae765efd1d",
+      "name": "Gaurav Pradhan",
+      "title": "ESG programme participant",
+      "quote": "Vinit and team's ESG training was one of my best decisions — well-structured from beginner to advanced and taught by accessible, experienced professionals. Ideal for personal or organizational upskilling.",
+      "sort_order": 1,
+      "is_published": true
+    },
+    {
+      "id": "f18eb2a9-1d13-4916-9d62-96c5213ca3f2",
+      "name": "Rajan Thakur",
+      "title": "Program Associate, Air Pollution Action Group (A-PAG), Prayagraj",
+      "quote": "Prof. Vinit Gosalia's session was insightful and practical — he simplified complex ESG frameworks, tied them to real-world use, and made learning actionable, reinforcing my aim to integrate CSR, ESG, and sustainability for greater impact.",
+      "sort_order": 2,
+      "is_published": true
+    },
+    {
+      "id": "56dadcf6-d314-4c6e-bcd3-bae611d44424",
+      "name": "Santosh Kumar Srivastava",
+      "title": "Corporate Head HSE, conglomerate",
+      "quote": "Thank you for an insightful, engaging ESG session. Your real-world examples clarified the topic and inspired me to explore ESG more thoughtfully.",
+      "sort_order": 3,
+      "is_published": true
+    }
+  ],
+  "differentiators": [
+    {
+      "id": "0b6fe402-d162-4d4e-a46a-0867d39ccc0c",
+      "title": "Industry expertise",
+      "body": "Led by IITians and PhDs, with decades of hands-on, cross-sector experience — solutions that work in operations, not just on paper.",
+      "icon": "award",
+      "sort_order": 1
+    },
+    {
+      "id": "ed52ccfc-f39c-4d89-829b-ccce4cf36c64",
+      "title": "Measurable results",
+      "body": "A data-driven approach that ties sustainability initiatives to tangible business value and verifiable environmental impact.",
+      "icon": "bar-chart",
+      "sort_order": 2
+    },
+    {
+      "id": "9c2f8d56-a268-429b-a3cd-927f7b927e34",
+      "title": "Collaborative approach",
+      "body": "We work as an extension of your team, transferring knowledge and building internal capability for the long term.",
+      "icon": "users",
+      "sort_order": 3
+    },
+    {
+      "id": "a2ca3fde-75ac-46ab-af10-bd80cf7aba73",
+      "title": "Local context, global standards",
+      "body": "Deep understanding of India's business landscape, combined with adherence to international sustainability frameworks.",
+      "icon": "globe",
+      "sort_order": 4
+    }
+  ]
+}

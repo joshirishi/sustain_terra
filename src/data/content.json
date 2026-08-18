@@ -279,6 +279,8 @@
         "Learning Links Foundation",
         "Indeed"
       ],
+      "photo_url": "/images/image-2.png",
+      "linkedin_url": "https://www.linkedin.com/in/vinit-gosalia-3854a42a",
       "sort_order": 1
     },
     {
@@ -296,6 +298,8 @@
         "Nokia",
         "HERE Technologies"
       ],
+      "photo_url": "/images/image-4.png",
+      "linkedin_url": "https://www.linkedin.com/in/trupti-sawant",
       "sort_order": 2
     },
     {
@@ -311,6 +315,8 @@
         "EKI",
         "General Carbon"
       ],
+      "photo_url": "/images/image-6.png",
+      "linkedin_url": "https://www.linkedin.com/in/sameeksha-patil",
       "sort_order": 3
     }
   ],

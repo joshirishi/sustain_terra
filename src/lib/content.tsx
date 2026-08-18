@@ -39,7 +39,21 @@ export function ContentProvider({ children }: { children: ReactNode }) {
       const next = { ...(snapshot as Content) };
       results.forEach((res, i) => {
         if (!res.error && res.data?.length) {
-          (next as Record<string, unknown>)[TABLES[i]] = res.data;
+          const table = TABLES[i];
+          // For team_members, merge with seed data to fill in missing photo_url
+          if (table === 'team_members') {
+            const seedTeam = (snapshot as Content).team_members;
+            const liveTeam = res.data as typeof seedTeam;
+            (next as Record<string, unknown>)[table] = liveTeam.map((live) => {
+              const seed = seedTeam.find((s) => s.id === live.id);
+              return {
+                ...live,
+                photo_url: live.photo_url || seed?.photo_url,
+              };
+            });
+          } else {
+            (next as Record<string, unknown>)[table] = res.data;
+          }
         }
       });
       setContent(next);

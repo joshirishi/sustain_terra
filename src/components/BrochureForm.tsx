@@ -3,9 +3,18 @@ import { Check, Download, Loader2 } from 'lucide-react';
 import { inputClass } from '@/components/ui';
 import { submitBrochureRequest } from '@/lib/leads';
 
+/**
+ * Fields on dark (forest/ink) backgrounds need their own surface, border and placeholder
+ * colours. Layering overrides on the light `inputClass` base left the placeholder and
+ * border almost invisible, so the light tone gets a complete class set instead.
+ */
+const lightFieldClass =
+  'w-full rounded-xl border border-lichen/60 bg-ink/30 px-4 py-3 text-[0.95rem] text-paper placeholder:text-sand/80 transition-colors focus:border-lichen focus:outline-none focus:ring-2 focus:ring-lichen/40';
+
 /** Inline email capture. Sends the brochure by email rather than exposing a raw file link. */
 export function BrochureForm({ brochure = 'overview', tone = 'dark' }: { brochure?: string; tone?: 'dark' | 'light' }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'done'>('idle');
+  const fieldClass = tone === 'light' ? lightFieldClass : inputClass;
   const [error, setError] = useState<string | null>(null);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
@@ -39,7 +48,7 @@ export function BrochureForm({ brochure = 'overview', tone = 'dark' }: { brochur
           type="text"
           placeholder="Your name"
           aria-label="Your name"
-          className={`${inputClass} ${tone === 'light' ? 'border-lichen/35 bg-white/10 text-paper placeholder:text-sand/55 focus:border-lichen focus:ring-lichen/25' : ''}`}
+          className={fieldClass}
         />
         <input
           name="email"
@@ -47,7 +56,7 @@ export function BrochureForm({ brochure = 'overview', tone = 'dark' }: { brochur
           required
           placeholder="you@company.com"
           aria-label="Work email for the brochure"
-          className={`${inputClass} ${tone === 'light' ? 'border-lichen/35 bg-white/10 text-paper placeholder:text-sand/55 focus:border-lichen focus:ring-lichen/25' : ''}`}
+          className={fieldClass}
         />
         <button
           type="submit"
